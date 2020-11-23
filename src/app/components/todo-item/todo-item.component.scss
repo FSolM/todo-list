@@ -1,0 +1,15 @@
+.app-todo-component {
+  display: flex;
+
+  &.is-complete { text-decoration: line-through; }
+
+  .del {
+    background-color: #ff0000;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 9px;
+    float: right;
+  }
+}
